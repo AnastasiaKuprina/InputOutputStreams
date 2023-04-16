@@ -5,8 +5,8 @@ public class Basket {
 
     private String[] products;
     private int[] prices;
-    int[] totalProductCount = new int[3];
-    int sumProducts = 0;
+    private int[] totalProductCount;
+    private int sumProducts = 0;
 
     public Basket() {
 
@@ -16,6 +16,7 @@ public class Basket {
     public Basket(String[] products, int[] prices) {
         this.products = products;
         this.prices = prices;
+        this.totalProductCount = new int[products.length];
     }
 
     //метод добавления amount штук продукта номер productNum в корзину;
