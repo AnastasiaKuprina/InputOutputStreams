@@ -1,3 +1,5 @@
+package ru.netology.testing;
+
 import java.io.*;
 import java.util.Arrays;
 
@@ -6,7 +8,24 @@ public class Basket {
     private String[] products;
     private int[] prices;
     private int[] totalProductCount;
+
+    public int[] getTotalProductCount() {
+        return totalProductCount;
+    }
+
     private int sumProducts = 0;
+
+    public String[] getProducts() {
+        return products;
+    }
+
+    public int[] getPrices() {
+        return prices;
+    }
+
+    public int getSumProducts() {
+        return sumProducts;
+    }
 
     public Basket() {
 

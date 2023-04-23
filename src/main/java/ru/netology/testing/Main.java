@@ -1,6 +1,7 @@
+package ru.netology.testing;
+
 import java.util.Scanner;
 import java.io.File;
-import java.io.IOException;
 
 public class Main {
 
